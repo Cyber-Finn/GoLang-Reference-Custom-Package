@@ -9,25 +9,25 @@ import (
 )
 
 // a very basic struct for what my message needs to look like
-type message_object struct {
+type Message_object struct {
 	message      string
 	message_type int
 	severity     int
 }
 
 // remember to make these publicly accessible (by having first letter CAPS)
-func Log_info(message message_object) {
+func Log_info(message Message_object) {
 	log.Print(message.message, message.message_type, message.severity)
 }
 
-func Log_warning(message message_object) {
+func Log_warning(message Message_object) {
 	log.Print(message.message, message.message_type, message.severity)
 }
 
-func Log_error(message message_object) {
+func Log_error(message Message_object) {
 	log.Print(message.message, message.message_type, message.severity)
 }
 
-func Log_fatal(message message_object) {
+func Log_fatal(message Message_object) {
 	log.Fatal(message.message, message.message_type, message.severity)
 }

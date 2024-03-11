@@ -4,7 +4,8 @@ This is a code-sample detailing how to reference custom (and sometimes private/o
 ### Side note: 
 I've simply included both projects into 1, separated by a single folder called "Code that will ref our package", for easier reading,
 <br>
-but these projects dont need to be in the same directory. Most solutions will simply have you copy/download the files into your work folder, 
+but these projects dont need to be in the same directory. 
+<br>Most solutions will simply have you copy/download the files into your work folder, 
 <br>but this shows you how to avoid that, and simply reference the existing remote package
 <br></br>
 

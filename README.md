@@ -16,7 +16,7 @@ basically, just follow these steps:
 5. run go mod tidy -> this fetches the dependencies and links them up
 6. happy coding!
 
-## Notes for private or organisational repos - where CICD pipelines need to do all of the steps above:
+# Notes for private or organisational repos - where CICD pipelines need to do all of the steps above:
 follow the steps above, or make sure your pipeline is following them
 1. set up an "Access Token" (in gitlab) or "Personal Access Token" (in GitHub -> you can limit permissions, etc.) for the repo you want to reference in your project
 2. set up a "variable" (in Gitlab) or "secret" (in GitHub) on your CICD pipeline/main repo

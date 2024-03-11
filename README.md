@@ -8,7 +8,7 @@ but these projects dont need to be in the same directory. Most solutions will si
 <br></br>
 
 # Notes for local building:
-basically, just follow these steps:
+basically, just follow these steps: (more details are inside the actual main.go code file)
 1. write the code you need, following the package you want to import - and all its inputs
 2. run the "GOPRIVATE" command
 3. run the "go get" command

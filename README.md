@@ -1,4 +1,4 @@
-# How to Reference Custom Packages from within a Go function/app/method
+# How to Reference Custom Packages from within another separate Go function/app/method
 This is a code-sample detailing how to reference custom (and sometimes private organisational) GO packages within another project.
 <br>
 Side note: I've simply included both projects into 1, separated by a single folder called "Code that will ref our package", for easier reading,
